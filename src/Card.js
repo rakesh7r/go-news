@@ -62,6 +62,8 @@ function CardComp(props) {
                         </Typography>
                     </CardContent> */}
                     <p className="card-text title">{data.title}</p>
+                    <p className="card-text additional">{data.source.name}</p>
+                    <p className="card-text additional">{data.publishedAt}</p>
                 </Card>
             </a>
         </div>

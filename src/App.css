@@ -6,14 +6,19 @@
   margin-left:13vw;
 }
 .header{
-  width:80vw;
-  margin-left:13vw;
+  width:50vw;
   background-color: white;
+  padding-left: 20vw;
   color:black;
-  padding: 7px;
+  padding: 3px;
   margin-bottom:10px;
   position:sticky;
+  z-index: 9;
   width:100vw;
+}
+.header h1{
+  width:10vw;
+  margin-left:12.5vw;
 }
 .title{
   color:gray;
@@ -22,4 +27,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.additional{
+  font-size: 10px;
+  color:gray;
+  padding : 3px;
+  padding-left :10px;
 }
