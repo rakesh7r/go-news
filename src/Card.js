@@ -52,7 +52,7 @@ function CardComp(props) {
                         image={data.urlToImage}
                         title="image"
                     />
-                    <CardContent>
+                    {/* <CardContent>
                         <Typography
                             variant="body2"
                             color="textSecondary"
@@ -60,7 +60,8 @@ function CardComp(props) {
                         >
                             {data.title}
                         </Typography>
-                    </CardContent>
+                    </CardContent> */}
+                    <p className="card-text title">{data.title}</p>
                 </Card>
             </a>
         </div>

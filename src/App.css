@@ -1,14 +1,25 @@
 .App {
   text-align: center;
 }
-body{
-  background-color: #E1E1E1;
+.main{
+  width:80vw;
+  margin-left:13vw;
 }
 .header{
-  background-color: #4C5B5C;
-  color:white;
+  width:80vw;
+  margin-left:13vw;
+  background-color: white;
+  color:black;
   padding: 7px;
   margin-bottom:10px;
   position:sticky;
   width:100vw;
+}
+.title{
+  color:gray;
+  padding:20px;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

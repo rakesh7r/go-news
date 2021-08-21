@@ -20,9 +20,11 @@ function NewsContext(props) {
     }, [])
     return (
         <div className="main">
-            {data && data.length > 0
-                ? data.map((row) => <CardComp key={row.url} data={row} />)
-                : null}
+            {data && data.length > 0 ? (
+                data.map((row) => <CardComp key={row.url} data={row} />)
+            ) : (
+                <h1>Loading...</h1>
+            )}
         </div>
     )
 }
