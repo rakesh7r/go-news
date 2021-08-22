@@ -5,6 +5,13 @@
   width:80vw;
   margin-left:13vw;
 }
+@media screen and (max-width:500px){
+  body{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+}
 .header{
   width:50vw;
   background-color: white;
