@@ -49,7 +49,8 @@ function CardComp(props) {
                 <Card className={classes.root} style={{ width: "100%" }}>
                     <CardMedia
                         className={classes.media}
-                        image={data.urlToImage}
+                        // image={data.urlToImage}
+                        image={data.image}
                         title="image"
                     />
                     {/* <CardContent>

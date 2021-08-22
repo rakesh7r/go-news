@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "news-go-in",
+    "news": "news-go-in"
+  }
+}
